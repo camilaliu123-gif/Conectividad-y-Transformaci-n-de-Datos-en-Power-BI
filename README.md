@@ -4,8 +4,6 @@
 
 Se realizó la transformación de un archivo de Excel utilizando Power Query en Power BI Desktop con el objetivo de limpiar, normalizar y preparar los datos para su análisis.
 
----
-
 ## Transformaciones realizadas
 
 Las transformaciones se realizaron en el siguiente orden:
@@ -18,8 +16,6 @@ Las transformaciones se realizaron en el siguiente orden:
 6. Se normalizó la estructura separando la información en dos tablas:
    - Producto
    - Ubicación
-
----
 
 ## Tipos de datos utilizados
 
@@ -45,8 +41,6 @@ Se asignó el tipo de dato adecuado a cada columna según su contenido.
 La asignación de estos tipos permite realizar cálculos, filtros y análisis correctamente dentro de Power BI.
 <img width="2720" height="1538" alt="image" src="https://github.com/user-attachments/assets/2b617aae-d980-4c2e-8ce1-93c5e60b38d5" />
 
----
-
 ## Tratamiento de valores nulos y duplicados
 
 Las columnas contenían el texto **"NULL"**, el cual impedía convertir correctamente algunos campos al tipo de dato correspondiente.
@@ -58,8 +52,6 @@ Posteriormente se modificaron los tipos de datos de las columnas de fecha.
 En cuanto a los registros duplicados, se verificó la información y se eliminaron los duplicados de la tabla **Producto**, manteniendo un único registro por **id_producto**.
 
 La tabla **Ubicación** no fue depurada por duplicados ya que un mismo producto puede encontrarse almacenado en distintas ubicaciones, por lo que esos registros representan información válida.
-
----
 
 ## Normalización de datos
 
@@ -92,8 +84,6 @@ Contiene la información de almacenamiento de cada producto:
 
 Ambas tablas se relacionan mediante la columna **id_producto**, permitiendo mantener un modelo de datos normalizado y evitando la duplicación de información.
 <img width="2692" height="1588" alt="image" src="https://github.com/user-attachments/assets/af8c9cc0-9e85-4457-bc0e-698602df1224" />
-
----
 
 ## Resultado
 
