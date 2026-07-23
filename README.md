@@ -43,6 +43,7 @@ Se asignó el tipo de dato adecuado a cada columna según su contenido.
 | ubicacion | Texto |
 
 La asignación de estos tipos permite realizar cálculos, filtros y análisis correctamente dentro de Power BI.
+<img width="2720" height="1538" alt="image" src="https://github.com/user-attachments/assets/2b617aae-d980-4c2e-8ce1-93c5e60b38d5" />
 
 ---
 
@@ -90,6 +91,7 @@ Contiene la información de almacenamiento de cada producto:
 - ubicacion
 
 Ambas tablas se relacionan mediante la columna **id_producto**, permitiendo mantener un modelo de datos normalizado y evitando la duplicación de información.
+<img width="2692" height="1588" alt="image" src="https://github.com/user-attachments/assets/af8c9cc0-9e85-4457-bc0e-698602df1224" />
 
 ---
 
@@ -102,4 +104,9 @@ Al finalizar las transformaciones:
 - Los tipos de datos son correctos.
 - Los valores nulos fueron tratados adecuadamente.
 - La información quedó organizada en dos tablas relacionadas, facilitando el análisis y la creación de visualizaciones.# README - Transformación de Datos en Power BI
+
+-<img width="2864" height="1618" alt="image" src="https://github.com/user-attachments/assets/0a97b7a3-8163-4edb-b714-32acbb4b2d66" />
+<img width="1354" height="872" alt="image" src="https://github.com/user-attachments/assets/b1f4dd33-893e-49c4-a5a0-d96cccecb2e5" />
+
+
 
